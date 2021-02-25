@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_JSON_RickAndMorty.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_JSON_RickAndMorty"
+        mc:Ignorable="d"
+        Title="Rick and Morty" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="https://i.redd.it/iztlqr0jkwn41.jpg"/>
+        </Grid.Background>
+        <ListBox x:Name="lbxCharacters" Margin="0,179,400,0" Background="#54FFFFFF" SelectionChanged="lbxCharacters_SelectionChanged"/>
+        <Image x:Name="imgCharacter" HorizontalAlignment="Left" Height="187" Margin="556,179,0,0" VerticalAlignment="Top" Width="184"/>
+
+    </Grid>
+</Window>
