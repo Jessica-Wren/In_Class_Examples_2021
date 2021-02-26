@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Classes", "WPF_Classes\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Web_Browser", "WPF_Web_Browser\WPF_Web_Browser.csproj", "{4810AEF2-A8BA-47CE-90BE-959322E7EED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF_JSON-RickAndMorty", "WPF_JSON-RickAndMorty\WPF_JSON-RickAndMorty.csproj", "{F8B02041-63FE-4804-90E2-826AB11361DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_JSON-RickAndMorty", "WPF_JSON-RickAndMorty\WPF_JSON-RickAndMorty.csproj", "{F8B02041-63FE-4804-90E2-826AB11361DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Pokemon", "JSON_Pokemon\JSON_Pokemon.csproj", "{289EBB3C-2CF8-41D5-8813-52BA9B313236}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289EBB3C-2CF8-41D5-8813-52BA9B313236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289EBB3C-2CF8-41D5-8813-52BA9B313236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289EBB3C-2CF8-41D5-8813-52BA9B313236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289EBB3C-2CF8-41D5-8813-52BA9B313236}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
