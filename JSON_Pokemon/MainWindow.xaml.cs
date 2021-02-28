@@ -42,13 +42,13 @@ namespace JSON_Pokemon
 
 
             AllPokedexAPI pokedexApi;
-            string pokedexUrl = "https://pokeapi.co/api/v2/pokemon?limit=1200";
+            string pokedexUrl = "https://pokeapi.co/api/v2/pokemon/pikachu";
 
             using (var client = new HttpClient())
             {
-                string json = client.GetStringAsync(pokedexUrl).Result;
+                string json2 = client.GetStringAsync(pokedexUrl).Result;
 
-                pokedexApi = JsonConvert.DeserializeObject<AllPokedexAPI>(json);
+                pokedexApi = JsonConvert.DeserializeObject<AllPokedexAPI>(json2);
 
                 // ---------------------------------------------------------------------------------------------------------------------------
 
