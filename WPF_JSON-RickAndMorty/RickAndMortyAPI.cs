@@ -28,7 +28,7 @@ namespace WPF_JSON_RickAndMorty
     {
         public int count { get; set; }
         public int pages { get; set; }
-        public string next { get; set; }
+        public string next { get; set; } //url for the next page
         
     }
 }
