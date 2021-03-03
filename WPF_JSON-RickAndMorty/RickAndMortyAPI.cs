@@ -8,6 +8,7 @@ namespace WPF_JSON_RickAndMorty
     {
         public Info info { get; set; }    // a property called info is inside the RickAndMortyClass
         public List<Character> results { get; set; } // this property has a [ so we need to make it a collection. so well do a list
+        //we call it character be we named it ourselves
 
     }
 

@@ -30,9 +30,9 @@ namespace WPF_JSON_RickAndMorty
 
             using (var client = new HttpClient())
             {
-                string jsonData = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;
+                string jsonData = client.GetStringAsync("https://rickandmortyapi.com/api/character").Result;  //Json Data
 
-                RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData);
+                RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData); // newtonsoft
 
                 foreach (var character in api.results)
                 {
