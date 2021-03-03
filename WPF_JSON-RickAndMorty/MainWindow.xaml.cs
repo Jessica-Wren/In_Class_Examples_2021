@@ -45,8 +45,17 @@ namespace WPF_JSON_RickAndMorty
 
         private void lbxCharacters_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var selectedCharacter = (Character)lbxCharacters.SelectedItem;
-            imgCharacter.Source = new BitmapImage(new Uri(selectedCharacter.image));
+            // how to get the image on the same window
+            //var selectedCharacter = (Character)lbxCharacters.SelectedItem;
+            //imgCharacter.Source = new BitmapImage(new Uri(selectedCharacter.image));
+
+
+            //  // how to get the image on a different window
+            Character selectedCharacter = (Character)lbxCharacters.SelectedItem;
+
+            MyWindow myNewWindow = new MyWindow();
+            myNewWindow.SetupWindow(selectedCharacter);
+            myNewWindow.ShowDialog();
         }
     }
 }

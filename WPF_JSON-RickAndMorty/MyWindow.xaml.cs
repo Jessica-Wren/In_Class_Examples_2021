@@ -21,5 +21,11 @@ namespace WPF_JSON_RickAndMorty
         {
             InitializeComponent();
         }
+
+        public void SetupWindow(Character character)
+        {
+            
+            imgNewWindow.Source = new BitmapImage(new Uri(character.image));
+        }
     }
 }
