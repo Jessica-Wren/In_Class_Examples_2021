@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_JSON-RickAndMorty", "WP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeStudentAddress", "Practice\PracticeStudentAddress.csproj", "{248505B6-0383-4E4D-A672-B16DE9D313B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeGrady", "PracticeGrady\PracticeGrady.csproj", "{A5183025-5974-43AA-B74B-A3EE4603F695}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeGrady", "PracticeGrady\PracticeGrady.csproj", "{A5183025-5974-43AA-B74B-A3EE4603F695}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

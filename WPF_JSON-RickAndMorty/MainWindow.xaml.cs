@@ -31,13 +31,15 @@ namespace WPF_JSON_RickAndMorty
             using (var client = new HttpClient()) // need a while loop   while the string i set for my url (for null values)
             {
                 string url = "https://rickandmortyapi.com/api/character";
-                
+                RickAndMortyAPI api;
+
+
 
                 while (string.IsNullOrEmpty(url) == false) // check to see if the string is null or empty
                 {
                     var jsonData = client.GetStringAsync(url).Result;  //Json Data   // sometimes there is an exception here. Sometimes there is not. Please try to test the application again
 
-                    RickAndMortyAPI api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData); // newtonsoft
+                    api = JsonConvert.DeserializeObject<RickAndMortyAPI>(jsonData); // newtonsoft
 
                     foreach (var character in api.results)
                     {
