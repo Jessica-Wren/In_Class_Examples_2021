@@ -51,11 +51,6 @@ namespace PracticeGrady
         private void btnUgliness_Click(object sender, RoutedEventArgs e)
         {
             
-
-            
-
-
-
             string status = btnUgliness.Content.ToString();
 
             switch (status)
@@ -107,6 +102,114 @@ namespace PracticeGrady
                     break;
             }
 
+        }
+
+        private void btnStinkiness_Click(object sender, RoutedEventArgs e)
+        {
+            string status = btnStinkiness.Content.ToString();
+
+            switch (status)
+            {
+                case "Go To Max":                                          // When we click the button (Which says GoToMax) It will calculate max (BC currently the label is showing average)
+
+                    int maxUgly = 0;
+                    foreach (var stink in Peeps)
+                    {
+                        var values = stink.Stinkiness;
+
+
+                        if (Convert.ToInt32(values) > maxUgly)
+                        {
+                            maxUgly = Convert.ToInt32(values);
+
+
+                        }
+                        lblStinkinessNumber.Content = maxUgly;
+                    }
+
+
+                    btnStinkiness.Content = "Go To Average";
+                    break;
+
+                case "Go To Average":                                              // When we click the button (Which says GoToAverage) It will calculate Average (BC currently the label is showing Max)
+
+                    int i = 0;
+                    int totalUgly = 0;
+                    foreach (var stink in Peeps)
+                    {
+                        var values = stink.Stinkiness;
+
+                        totalUgly += Convert.ToInt32(values);                    //(totalugly = totalugly + values) this adds all the numbers for ugliness
+                        i++;                                                     // counting the amount of times weve been through
+                    }
+
+                    int avUgly = totalUgly / i;   // finding the average
+                    lblStinkinessNumber.Content = avUgly;
+
+                                                                                   //When the label says Average
+                    
+                    btnStinkiness.Content = "Go To Max";                             // The button will say "GoToMax"
+                    break;
+
+
+
+                default:
+                    break;
+            }
+        }
+
+        private void btnCoolness_Click(object sender, RoutedEventArgs e)
+        {
+            string status = btnCoolness.Content.ToString();
+
+            switch (status)
+            {
+                case "Go To Max":                                                   // When we click the button (Which says GoToMax) It will calculate max (BC currently the label is showing average)
+
+                    int maxUgly = 0;
+                    foreach (var cool in Peeps)
+                    {
+                        var values = cool.Coolness;
+
+
+                        if (Convert.ToInt32(values) > maxUgly)
+                        {
+                            maxUgly = Convert.ToInt32(values);
+
+
+                        }
+                        lblCoolnessNumber.Content = maxUgly;
+                    }
+
+
+                    btnCoolness.Content = "Go To Average";
+                    break;
+
+                case "Go To Average":                                              // When we click the button (Which says GoToAverage) It will calculate Average (BC currently the label is showing Max)
+
+                    int i = 0;
+                    int totalUgly = 0;
+                    foreach (var cool in Peeps)
+                    {
+                        var values = cool.Coolness;
+
+                        totalUgly += Convert.ToInt32(values);                    //(totalugly = totalugly + values) this adds all the numbers for ugliness
+                        i++;                                                     // counting the amount of times weve been through
+                    }
+
+                    int avUgly = totalUgly / i;   // finding the average
+                    lblCoolnessNumber.Content = avUgly;
+
+                    //When the label says Average
+
+                    btnCoolness.Content = "Go To Max";                             // The button will say "GoToMax"
+                    break;
+
+
+
+                default:
+                    break;
+            }
         }
     }
 }

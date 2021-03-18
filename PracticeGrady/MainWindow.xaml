@@ -12,10 +12,10 @@
         <Label Content="Ugliness" HorizontalAlignment="Left" Margin="117,23,0,0" VerticalAlignment="Top"/>
         <Label Content="Stinkiness" HorizontalAlignment="Left" Margin="354,23,0,0" VerticalAlignment="Top"/>
         <Label Content="Coolness" HorizontalAlignment="Left" Margin="650,36,0,0" VerticalAlignment="Top"/>
-        <Button x:Name="btnStinkiness" Content="Toggle" HorizontalAlignment="Left" Margin="385,157,0,0" VerticalAlignment="Top" Height="60" Width="85"/>
-        <Button x:Name="btnCoolness" Content="Toggle" HorizontalAlignment="Left" Margin="650,157,0,0" VerticalAlignment="Top" Height="60" Width="79"/>
-        <Label x:Name="lblStinkiness" Content="Label" HorizontalAlignment="Left" Margin="354,71,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="lblCoolness" Content="Label" HorizontalAlignment="Left" Margin="679,71,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnStinkiness" Content="Go To Max" HorizontalAlignment="Left" Margin="385,157,0,0" VerticalAlignment="Top" Height="60" Width="85" Click="btnStinkiness_Click"/>
+        <Button x:Name="btnCoolness" Content="Go To Max" HorizontalAlignment="Left" Margin="650,157,0,0" VerticalAlignment="Top" Height="60" Width="79" Click="btnCoolness_Click"/>
+        <Label x:Name="lblStinkinessNumber" Content="Label" HorizontalAlignment="Left" Margin="354,71,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblCoolnessNumber" Content="Label" HorizontalAlignment="Left" Margin="679,71,0,0" VerticalAlignment="Top"/>
         <ListBox x:Name="lbxListCoolGuys" Margin="0,273,0,0"/>
         <Label x:Name="lblUglinessPerson" Content="Label" HorizontalAlignment="Left" Margin="158,71,0,0" VerticalAlignment="Top"/>
 
