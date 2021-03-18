@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_Web_Browser", "WPF_Web_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_JSON-RickAndMorty", "WPF_JSON-RickAndMorty\WPF_JSON-RickAndMorty.csproj", "{F8B02041-63FE-4804-90E2-826AB11361DD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PracticeStudentAddress", "Practice\PracticeStudentAddress.csproj", "{248505B6-0383-4E4D-A672-B16DE9D313B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeGrady", "PracticeGrady\PracticeGrady.csproj", "{A5183025-5974-43AA-B74B-A3EE4603F695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B02041-63FE-4804-90E2-826AB11361DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{248505B6-0383-4E4D-A672-B16DE9D313B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{248505B6-0383-4E4D-A672-B16DE9D313B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{248505B6-0383-4E4D-A672-B16DE9D313B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{248505B6-0383-4E4D-A672-B16DE9D313B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5183025-5974-43AA-B74B-A3EE4603F695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5183025-5974-43AA-B74B-A3EE4603F695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5183025-5974-43AA-B74B-A3EE4603F695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5183025-5974-43AA-B74B-A3EE4603F695}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

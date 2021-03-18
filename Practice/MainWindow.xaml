@@ -1,0 +1,23 @@
+﻿<Window x:Class="Practice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Practice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="First Name" HorizontalAlignment="Left" Margin="63,52,0,0" VerticalAlignment="Top"/>
+        <Label Content="GPA" HorizontalAlignment="Left" Margin="69,98,0,0" VerticalAlignment="Top"/>
+        <Label Content="Street Number" HorizontalAlignment="Left" Margin="59,129,0,0" VerticalAlignment="Top"/>
+        <Label Content="Steet Name" HorizontalAlignment="Left" Margin="59,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbxFirstName" HorizontalAlignment="Left" Margin="213,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxGPA" HorizontalAlignment="Left" Margin="213,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxStreetNumber" HorizontalAlignment="Left" Margin="213,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbxStreetName" HorizontalAlignment="Left" Margin="213,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lbxStudentList" Margin="495,0,0,0" MouseDoubleClick="lbxStudentList_MouseDoubleClick"/>
+        <Button x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="68,346,0,0" VerticalAlignment="Top" Height="48" Width="79" Click="btnSubmit_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="273,346,0,0" VerticalAlignment="Top" Height="48" Width="97" Click="btnExit_Click"/>
+
+    </Grid>
+</Window>
